@@ -18,8 +18,8 @@
 int main()
 {
     //Variaveis
-    int numero1, numero2,soma, subtracao;
-    float multiplicacao, divisao;
+    int numero1, numero2, soma, subtracao, multiplicacao;
+    float divisao;
 
     //Inserir dados
     puts("Calculo de varias operacoes com 2 numeros inteiros\n");
@@ -37,7 +37,7 @@ int main()
     //Escrever o resultado das operacoes
     printf("O resultado da soma e: %d\n", soma);
     printf("O resultado da subtracao e: %d\n", subtracao);
-    printf("O resultado da multiplicacao e: %.1f\n", multiplicacao);
+    printf("O resultado da multiplicacao e: %d\n", multiplicacao);
     printf("O resultado da divisao e: %.1f\n", divisao);
 
     getchar();
